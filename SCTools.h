@@ -2,7 +2,7 @@
  * File:   SCTools.h
  * Author: Jacky
  *
- * Created on 2011年5月18日, 上午 10:58
+ * Created on 2011/5/18, 10:58 am
  */
 
 #ifndef SCTOOLS_H

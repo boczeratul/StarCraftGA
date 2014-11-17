@@ -33,7 +33,7 @@ int main(int argc, char** argv) {
     
     free(r);
     
-    
+    system("pause");
     return 0;
 }
 

@@ -39,7 +39,7 @@ depend:
 	makedepend $(SRC)
 
 clean:
-	rm -f $(OBJ)
+	rm -f $(OBJ) $(GOAL)
 
 # DO NOT DELETE
 

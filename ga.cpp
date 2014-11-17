@@ -176,7 +176,7 @@ void tournament () {
 //            offspring[i].init (ell);
 //    }
 
-    int randArray[selectionPressure * nNextGeneration];
+    int *randArray = (int*) malloc(selectionPressure * nNextGeneration * sizeof(int));
 
     int q = (selectionPressure * nNextGeneration) / nCurrent;
     int r = (selectionPressure * nNextGeneration) % nCurrent;
