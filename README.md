@@ -8,9 +8,10 @@ Date: 2011/6/17
 $ make
 $ ./SC2Overmind
 ```
-
-## Under Windows
-simply run SC2Overmind.exe
+```sh
+# Under Windows
+$ ./SC2Overmind.exe
+```
 
 ## How to use the program?
 
@@ -24,8 +25,7 @@ Then you have to input the number of requirements you need.
 For example, if you want 7 roaches, that's "1" requirement.
 If you want 7 roaches and 10 zerglings, that's "2" requirements.
 
-### Requirement
-* Quantity:
+### Requirement and Quantity
 Specify each requirements. You should enter the requirement ID and the quantity of that requirement. 
 The requirement IDs are listed as below:
 
