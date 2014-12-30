@@ -1,35 +1,35 @@
-%% This program is a free software. You can modify it and redistribute it as you like
-%% AS LONG AS IT'S NOT FOR COMMERCIAL USE!!!!
-%%
-%% Author: Hsuan Lee (MaDBoCs), Jen-Hao Chang
-%%         National Taiwan University department of Electrical Engineering
-%%
-%% Date:   2011/6/17
+### Authors  
+Hsuan Lee (MaDBoCs), Jen-Hao Chang  
+Date: 2011/6/17
 
-## Usage:
-## Under Linux, Unix, or MacOSX
+## Usage
+```sh
+# Under Linux, Unix, or MacOSX
 $ make
 $ ./SC2Overmind
+```
 
 ## Under Windows
 simply run SC2Overmind.exe
 
 ## How to use the program?
 
-$ Verification Time (200 ~ 1000 recommanded):
+### Verification Time (200 ~ 1000 recommanded)
 When you start the program, you have to decide how good you want your build order to be.
 LARGER NUMBER MAKES BETTER BUILD ORDER!!!
 Generally, 300 is enough to find the optimal solution for 7 roach rush.
 
-$ Number of requirements: 
+### Number of requirements 
 Then you have to input the number of requirements you need.
 For example, if you want 7 roaches, that's "1" requirement.
 If you want 7 roaches and 10 zerglings, that's "2" requirements.
 
-$ Requirement:
-$ Quantity:
+### Requirement
+* Quantity:
 Specify each requirements. You should enter the requirement ID and the quantity of that requirement. 
 The requirement IDs are listed as below:
+
+```
 	Units
     16: spawn drone
     17: spawn overlord
@@ -77,6 +77,8 @@ The requirement IDs are listed as below:
     57: upgrade lair tech
     58: upgrade hive tech
     59: upgrade greater spire tech
+```
+
 For the example of 7 roaches, the requirement ID is 20 and the quantity is 7.
 
 After the arguments have been specified, Genetic Algorithm will start.
