@@ -1,8 +1,4 @@
-### Authors  
-Hsuan Lee (MaDBoCs), Jen-Hao Chang  
-Date: 2011/6/17
-
-## Usage
+## Build
 ```sh
 # Under Linux, Unix, or MacOSX
 $ make
@@ -13,7 +9,7 @@ $ ./SC2Overmind
 $ ./SC2Overmind.exe
 ```
 
-## How to use the program?
+## Usage
 
 ### Verification Time (200 ~ 1000 recommanded)
 When you start the program, you have to decide how good you want your build order to be.
@@ -83,3 +79,7 @@ For the example of 7 roaches, the requirement ID is 20 and the quantity is 7.
 
 After the arguments have been specified, Genetic Algorithm will start.
 When it finishe, the best Build Order will be demonstrated.
+
+### Authors  
+* Hsuan Lee (MaDBoCs)
+* Jen-Hao Chang  
