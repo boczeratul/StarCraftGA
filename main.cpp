@@ -13,7 +13,6 @@
 using namespace std;
 
 int main(int argc, char** argv) {
-    
     setSCStateStrings();
     setSCActionVariables();
     setSCDependencies();
@@ -32,8 +31,7 @@ int main(int argc, char** argv) {
     doIt (0, verificationTime, -1, true);
     
     free(r);
-    
-    system("pause");
+
     return 0;
 }
 

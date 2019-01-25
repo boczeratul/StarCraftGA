@@ -26,8 +26,7 @@ TLIB =
 
 GOAL = SC2Overmind
 
-SRC = ga.cpp  myrand.cpp main.cpp mt19937ar.cpp SCTools.cpp
-
+SRC = ga.cpp myrand.cpp main.cpp mt19937ar.cpp SCTools.cpp
 
 OBJ = $(addsuffix .o, $(basename $(SRC)))
 
